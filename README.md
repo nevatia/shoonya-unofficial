@@ -1,10 +1,5 @@
-Here’s a **clean, professional `README.md`** tailored for your repo:
 
-👉 [shoonya-unofficial GitHub Repository](https://github.com/nevatia/shoonya-unofficial.git?utm_source=chatgpt.com)
-
-You can **copy–paste this directly** into your repo.
-
----
+👉 [shoonya-unofficial GitHub Repository](https://github.com/nevatia/shoonya-unofficial.git)
 
 # 🚀 Shoonya Unofficial Python API Wrapper
 
@@ -71,6 +66,9 @@ pip install .
 ---
 
 ## 🔑 Usage Example
+
+You need to get appkey from your weblogin once and save it in .yml for appkey in quotes. 
+This is one time process as of now.
 
 ```python
 from NorenRestApiPy.NorenApi import NorenApi
