@@ -1,6 +1,6 @@
 from api_helper import ShoonyaApiPy
+from NorenRestApiPy.NorenApi import NorenApi
 import logging
-from NorenApi import  NorenApi
 import time
 import json
 import hashlib
