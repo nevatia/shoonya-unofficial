@@ -74,18 +74,23 @@ pip install .
 
 ```python
 from NorenRestApiPy.NorenApi import NorenApi
+class ShoonyaApiPy(NorenApi):
+    def __init__(self):
+        super().__init__(
+            host="https://api.shoonya.com/NorenWClientAPI",
+            websocket="wss://api.shoonya.com/NorenWSAPI",
+        )
+api = ShoonyaApiPy()
+ret = api.login(userid=cred['user'], 
+password=cred['pwd'], 
+twoFA=generate_totp(cred['factor2']), 
+vendor_code=cred['vc'], 
+api_secret=cred['apikey'], 
+imei=cred['imei'],
+secret_code= cred['secret'],
+appkey= cred['appkey'])
+print(ret)
 
-api = NorenApi()
-
-# Login
-api.login(
-    userid="YOUR_USER_ID",
-    password="YOUR_PASSWORD",
-    twoFA="YOUR_2FA",
-    vendor_code="YOUR_VENDOR_CODE",
-    api_secret="YOUR_API_SECRET",
-    imei="YOUR_IMEI"
-)
 
 # Get Quote
 quote = api.get_quotes(exchange="NSE", token="26000")
@@ -162,7 +167,7 @@ For major changes, open an issue first.
 
 ## 📜 License
 
-MIT License (or update if different)
+MIT License 
 
 ---
 
