@@ -18,3 +18,6 @@ Download Zip method
 
 pip install norenrestapipy-1.0.0-py3-none-any.whl
 
+
+pip install -r requirements.txt
+
