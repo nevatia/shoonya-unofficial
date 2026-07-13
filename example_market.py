@@ -1,5 +1,5 @@
 from api_helper import ShoonyaApiPy, get_time
-from NorenApi import  NorenApi
+from NorenRestApiPy.NorenApi import NorenApi
 import requests, os
 import datetime
 import logging
