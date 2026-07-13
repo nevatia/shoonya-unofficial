@@ -5,7 +5,7 @@ import time
 import yaml
 import pandas as pd
 import requests, os
-from NorenApi import  NorenApi
+from NorenRestApiPy.NorenApi import NorenApi
 
 import pyotp
 def generate_totp(TOTP_SECRET):
