@@ -6,7 +6,7 @@
 Unofficial Python wrapper for Finvasia Shoonya Trading API — designed for fast integration, algo trading, and automation.
 
 Installing this repo may overwrite your existing norenapi.
-So to avoid that, you are advised to use it in a separate environment by installing locally.
+So to avoid that, you are advised to use it in a separate environment or by installing locally.
 ---
 
 ## 📦 Features
