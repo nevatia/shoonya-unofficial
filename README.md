@@ -4,7 +4,7 @@
 # 🚀 Shoonya Unofficial Python API Wrapper
 
 Unofficial Python wrapper for **Finvasia Shoonya Trading API** — designed for fast integration, algo trading, and automation.
-
+Installing this repo may overwrite your existing norenapi. So to avoid that yuo are advised to use it in separate environment by downloading and installing to local folder
 ---
 
 ## 📦 Features
